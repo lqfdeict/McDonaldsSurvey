@@ -1,3 +1,5 @@
+# tutorial for selenium : "https://www.youtube.com/watch?v=b5jt2bhSeXs&ab_channel=TechWithTim"
+
 from selenium import webdriver
 
 PATH = "D:\chromedriver.exe "
@@ -10,3 +12,5 @@ driver.get("https://www.google.com/")
 
 
 driver.close()
+
+

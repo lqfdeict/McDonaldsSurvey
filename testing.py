@@ -2,7 +2,7 @@
 
 from selenium import webdriver
 
-PATH = "D:\chromedriver.exe "
+PATH = "C:\chromedriver.exe "
 
 driver = webdriver.Chrome(PATH)
 

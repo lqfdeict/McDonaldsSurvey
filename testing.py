@@ -11,18 +11,19 @@ driver = webdriver.Chrome(PATH)
 
 driver.get('https://www.youtube.com/');
 
+def initialform():
 
+    search = driver.find_element("name", "search_query")
 
-search_box = driver.find_element("name", "search_query")
+    search.send_keys('ChromeDriver')
 
-search_box.send_keys('ChromeDriver')
-
-search_box.submit()
+    search.submit()
 
 
 # MAKE EACH LINE HAVE ITS OWN THING
 # initialize(1334)
 # def initialize(n):
-#     search_box = driver.find_element("name", "CN1")
-#     search_box.send_keys(n)
+#     search = driver.find_element("name", "CN1")
+#     search.send_keys(n)
 
+initialform()

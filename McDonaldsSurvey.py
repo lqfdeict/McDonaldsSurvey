@@ -3,7 +3,10 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by   import By
 
-PATH = "C:\chromedriver.exe "
+PATH = "C:\chromedriver.exe " 
+
+# add the following to remove file location code:
+# https://stackoverflow.com/questions/18642025/use-selenium-with-python-portable
 
 driver = webdriver.Chrome(PATH)
 
